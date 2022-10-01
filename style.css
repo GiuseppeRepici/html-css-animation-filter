@@ -143,3 +143,59 @@
     width: 60px;
     height: 20px;
 }
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: muoviti 3s linear infinite;
+}
+@keyframes muoviti {
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: calc(100% - 80px);
+    }
+    100% {
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: muoviti1 3s linear infinite;
+}
+@keyframes muoviti1 {
+    0% {
+        right: 10%;
+    }
+    50% {
+        right: calc(100% - 80px);
+    }
+    100% {
+        right: 10%;
+    }
+}
+
+.ex-13-button:hover .ex-13-top-white{
+    animation: muoviti3 3s linear infinite;
+}
+@keyframes muoviti3 {
+    0% {
+        left: 0%;
+    }
+    
+    100% {
+        left: 100%;
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: muoviti4 3s linear infinite;
+}
+@keyframes muoviti4 {
+    0% {
+        right: 0%;
+    }
+    
+    100% {
+        right: 100%;
+    }
+}
