@@ -90,9 +90,29 @@
 }
 .ex-10-icon {
     font-size: 60px;
+    animation: giriamo 1s linear infinite;
+    
 }
+
+
+@keyframes giriamo {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
 .ex-11-icon {
     font-size: 60px;
+}
+
+.ex-11-icon:hover {
+    animation: giriamo1 2s linear infinite;
+}
+
+@keyframes giriamo1 {
+    75% {
+        transform: rotate(270deg);
+    }
 }
 .ex-12-button, .ex-13-button {
     position: relative;
